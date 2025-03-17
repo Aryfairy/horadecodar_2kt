@@ -1,14 +1,9 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-fun main() {
-    val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
+//Escreva um programa em que o usuário informe dois números. Então escreva em tela o maior deles.
 
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
-    }
+fun main(){
+    println("Digite o primeiro valor: ")
+    val n1 = readln().toDouble()
+    println("Digite o segundo valor: ")
+    val n2 = readln().toDouble()
+    val resul = if (n1 > n2) println("$n1 é maior q $n2") else println("$n2 é maior que $n1")
 }
