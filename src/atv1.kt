@@ -1,6 +1,6 @@
 //Escreva um programa em que o usuário informe dois números. Então escreva em tela o maior deles.
 
-fun main(){
+fun main() {
     println("Digite o primeiro valor: ")
     val n1 = readln().toDouble()
     println("Digite o segundo valor: ")
